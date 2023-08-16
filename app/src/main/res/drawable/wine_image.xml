@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/baseline_wine_bar_24_white" />
+    <item>
+        <clip
+            android:clipOrientation="vertical"
+            android:drawable="@drawable/baseline_wine_bar_24_red"
+            android:gravity="bottom" />
+    </item>
+</layer-list>
