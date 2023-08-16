@@ -18,6 +18,7 @@
             android:src="@drawable/star_image" />
 
         <TextView
+            android:id="@+id/human_counetr"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="0"
@@ -36,6 +37,7 @@
             android:src="@drawable/wine_image" />
 
         <TextView
+            android:id="@+id/ai_counter"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -45,6 +47,7 @@
     </LinearLayout>
 
     <GridLayout
+        android:id="@+id/field"
         android:layout_width="300dp"
         android:layout_height="400dp"
         android:layout_gravity="center"
@@ -53,53 +56,63 @@
         android:rowCount="3">
 
         <ImageView
+            android:id="@+id/cord_1_1"
             android:layout_width="100dp"
             android:layout_height="133dp"
-            android:src="@drawable/circle" />
+            android:src="@drawable/x_o_chooser" />
 
         <ImageView
+            android:id="@+id/cord_1_2"
             android:layout_width="100dp"
             android:layout_height="133dp"
-            android:src="@drawable/x" />
+            android:src="@drawable/x_o_chooser" />
 
         <ImageView
+            android:id="@+id/cord_1_3"
             android:layout_width="100dp"
             android:layout_height="133dp"
-            android:src="@drawable/x" />
+            android:src="@drawable/x_o_chooser" />
 
         <ImageView
+            android:id="@+id/cord_2_1"
             android:layout_width="100dp"
             android:layout_height="133dp"
-            android:src="@drawable/circle" />
+            android:src="@drawable/x_o_chooser" />
 
         <ImageView
+            android:id="@+id/cord_2_2"
             android:layout_width="100dp"
             android:layout_height="133dp"
-            android:src="@drawable/x" />
+            android:src="@drawable/x_o_chooser" />
 
         <ImageView
+            android:id="@+id/cord_2_3"
             android:layout_width="100dp"
             android:layout_height="133dp"
-            android:src="@drawable/circle" />
+            android:src="@drawable/x_o_chooser" />
 
 
         <ImageView
+            android:id="@+id/cord_3_1"
             android:layout_width="100dp"
             android:layout_height="133dp"
-            android:src="@drawable/circle" />
+            android:src="@drawable/x_o_chooser" />
 
         <ImageView
+            android:id="@+id/cord_3_2"
             android:layout_width="100dp"
             android:layout_height="133dp"
-            android:src="@drawable/x" />
+            android:src="@drawable/x_o_chooser" />
 
         <ImageView
+            android:id="@+id/cord_3_3"
             android:layout_width="100dp"
             android:layout_height="133dp"
-            android:src="@drawable/circle" />
+            android:src="@drawable/x_o_chooser" />
     </GridLayout>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
