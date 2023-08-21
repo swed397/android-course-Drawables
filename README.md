@@ -12,4 +12,8 @@ Task from android dev course
 - 1 или болееLayer list (<layer-list>)
 
 # Implementation screenshots
-![screenshots/ai_win.png]
+![Начало игры](screenshots/img.png)
+![Победа человека](screenshots/human_win.png)
+![Победа АИ](screenshots/ai_win.png)
+![Конец игры](screenshots/end_game.png)
+
