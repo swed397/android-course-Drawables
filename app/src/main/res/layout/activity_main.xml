@@ -13,6 +13,7 @@
         android:layout_gravity="start">
 
         <ImageView
+            android:id="@+id/star_image"
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:src="@drawable/star_image" />
@@ -32,6 +33,7 @@
         android:layout_gravity="end">
 
         <ImageView
+            android:id="@+id/wine_image"
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:src="@drawable/wine_image" />
@@ -56,56 +58,56 @@
         android:rowCount="3">
 
         <ImageView
-            android:id="@+id/cord_1_1"
+            android:id="@+id/field_view_1_1"
             android:layout_width="100dp"
             android:layout_height="133dp"
             android:src="@drawable/x_o_chooser" />
 
         <ImageView
-            android:id="@+id/cord_1_2"
+            android:id="@+id/field_view_1_2"
             android:layout_width="100dp"
             android:layout_height="133dp"
             android:src="@drawable/x_o_chooser" />
 
         <ImageView
-            android:id="@+id/cord_1_3"
+            android:id="@+id/field_view_1_3"
             android:layout_width="100dp"
             android:layout_height="133dp"
             android:src="@drawable/x_o_chooser" />
 
         <ImageView
-            android:id="@+id/cord_2_1"
+            android:id="@+id/field_view_2_1"
             android:layout_width="100dp"
             android:layout_height="133dp"
             android:src="@drawable/x_o_chooser" />
 
         <ImageView
-            android:id="@+id/cord_2_2"
+            android:id="@+id/field_view_2_2"
             android:layout_width="100dp"
             android:layout_height="133dp"
             android:src="@drawable/x_o_chooser" />
 
         <ImageView
-            android:id="@+id/cord_2_3"
+            android:id="@+id/field_view_2_3"
             android:layout_width="100dp"
             android:layout_height="133dp"
             android:src="@drawable/x_o_chooser" />
 
 
         <ImageView
-            android:id="@+id/cord_3_1"
+            android:id="@+id/field_view_3_1"
             android:layout_width="100dp"
             android:layout_height="133dp"
             android:src="@drawable/x_o_chooser" />
 
         <ImageView
-            android:id="@+id/cord_3_2"
+            android:id="@+id/field_view_3_2"
             android:layout_width="100dp"
             android:layout_height="133dp"
             android:src="@drawable/x_o_chooser" />
 
         <ImageView
-            android:id="@+id/cord_3_3"
+            android:id="@+id/field_view_3_3"
             android:layout_width="100dp"
             android:layout_height="133dp"
             android:src="@drawable/x_o_chooser" />
@@ -118,5 +120,5 @@
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="40dp"
         android:background="@drawable/background_button"
-        android:text="Button" />
+        android:text="Hard reset" />
 </FrameLayout>
