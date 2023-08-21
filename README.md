@@ -12,4 +12,4 @@ Task from android dev course
 - 1 или болееLayer list (<layer-list>)
 
 # Implementation screenshots
-
+[logo] screenshots/ai_win.png
