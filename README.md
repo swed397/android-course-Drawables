@@ -10,3 +10,6 @@ Task from android dev course
 - 1 или более ClipDrawable(<clip>)
 - 1 или более Statelist(<selector>)
 - 1 или болееLayer list (<layer-list>)
+
+# Implementation screenshots
+
