@@ -12,4 +12,4 @@ Task from android dev course
 - 1 или болееLayer list (<layer-list>)
 
 # Implementation screenshots
-![] screenshots/ai_win.png
+![screenshots/ai_win.png]
